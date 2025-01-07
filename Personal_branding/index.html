@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal_branding</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Tambahkan font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tambahkan Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <!-- Tambahkan logo dengan styling yang lebih menarik -->
+                <span class="logo-text">AFIF NIKO</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-item">Beranda</a>
+                <a href="#about" class="nav-item" >About Me</a>
+                <a href="#skill" class="nav-item">Skill</a>
+                <a href="#project" class="nav-item">Project</a>
+            </div>
+            <!-- Tambahkan social icons langsung di navbar -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/1C6Sv9RiZU/?mibextid=wwXIfr" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/afifniko_/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/afifniko" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-overlay">
+            <video autoplay muted loop class="hero-video">
+                <source src="upload/hero-video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-content" id = "home">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2 class="hero-title">Afif Niko Sarputra</h2>
+                    <div class="hero-description">
+                        <div class="text-animation">
+                            <p class="text-slide">Universitas Teknologi Yogyakarta</p>
+                            <p class="text-slide">Fakultas Sains dan Teknologi</p>
+                            <p class="text-slide">Prodi Teknik Informatika</p>
+                            <p class="text-slide">5240411127</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-icon">
+                    <img src="UPLOADS/APIP.jpg" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <div class="about">
+        <h2 class="about-title slide-up" id = "about" data-aos="fade-up">About Me</h2>
+        <p class="about-description" style="text-align: center;" data-aos="fade-up" data-aos-delay="100">Saya adalah mahasiswa semester 1 di program studi Teknik Informatika saya memiliki ketertarikan terhadap teknologi. <br> Selama semester pertama ini, saya telah memperkenalkan diri saya pada berbagai konsep dasar  dalam <br>dunia ilmu komputer, mulai dari pemrograman, algoritma dan struktur data yang menjadi dasar dalam penyelesaian masalah teknologi, Impian saya dalam jangka panjang adalah untuk menjadi seorang profesional di bidang pengembangan perangkat lunak atau kecerdasan buatan yang mampu menciptakan solusi-solusi inovatif bagi permasalahan masyarakat.</p>
+
+    <!-- Skill Section -->
+    <section class="skill">
+        <div class="skill-content">
+            <h2 class="skill-title" id = "skill" style="text-align: center;" font-size: 3rem; data-aos="fade-up">Skill</h2>
+            <p class="skill-description" style="text-align: center;"data-aos="fade-up" >Berikut adalah skill yang saya miliki dalam pengembangan web dan pemrograman back-end</p>
+            <div class="skill-boxes" >
+                <div class="skill-box" style="--delay: 1;" data-aos="fade-up" data-aos-delay="200">
+                    <img src="uploads/html.png" alt="HTML">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="skill-box" style="--delay: 2;" data-aos="fade-up" data-aos-delay="200">
+                    <img src="uploads/css.png" alt="CSS">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="skill-box" style="--delay: 3;" data-aos="fade-up" data-aos-delay="200">
+                    <img src="uploads/javascript-logo.png" alt="JavaScript">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-box" style="--delay: 4;" data-aos="fade-up" data-aos-delay="200">
+                    <img src="uploads/py.png" alt="Python">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill-box" style="--delay: 5;" data-aos="fade-up" data-aos-delay="200">
+                    <img src="uploads/php.png" alt="PHP">
+                    <i class="fab fa-php"></i>
+                    <span>PHP</span>
+                </div>
+                <div class="skill-box" style="--delay: 6;" data-aos="fade-up" data-aos-delay="200">
+                    <img src="uploads/figma.png" alt="Figma">
+                    <i class="fab fa-figma"></i>
+                    <span>Figma</span>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="project">
+        <div class="project-content">
+            <h2 class="project-title" id="project" data-aos="fade-up" style="text-align: center;">Project</h2>
+            <p class="project-description" data-aos="fade-up" data-aos-delay="100" style="text-align: center;">
+                Berikut adalah beberapa project yang telah saya kerjakan menggunakan berbagai teknologi web development.
+            </p>
+            <div class="project-boxes">
+                <!-- Project 1 -->
+                <div class="project-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="uploads/f2.png" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Desain Figma</h3>
+                        <p>Desain tampilan apklikasi</p>
+                        <div class="project-tech">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 2 -->
+                <div class="project-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-img">
+                        <img src="uploads/my web.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Website Toko online</h3>
+                        <p>Desain Tampilan UI </p>
+                        <div class="project-tech">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let lastScrollTop = 0;
+        const header = document.querySelector('.header');
+
+        window.addEventListener('scroll', () => {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop > lastScrollTop) {
+                // Scroll ke bawah
+                header.style.transform = 'translateY(-100%)';
+            } else {
+                // Scroll ke atas
+                header.style.transform = 'translateY(0)';
+            }
+            lastScrollTop = scrollTop;
+        });
+
+        let menuBtn = document.querySelector('.hamburger');
+        let menuNav = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            menuBtn.classList.toggle('active');
+            menuNav.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-item').forEach(link => {
+            link.addEventListener('click', () => {
+                menuBtn.classList.remove('active');
+                menuNav.classList.remove('active');
+            });
+        });
+    </script>
+    <!-- aos script -->
+    <script>
+        // Inisialisasi AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+
+        // ... script yang sudah ada ...
+    </script>
+
+</body>
+</html>
